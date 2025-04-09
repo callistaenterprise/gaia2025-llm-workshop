@@ -1,0 +1,131 @@
+{
+  "name": "Röd köttgryta med högrev och rödbetor",
+  "description": "Laga något gott och annorlunda – som en röd köttgryta med högrev och rödbetor! Denna påminner lite om en borsjtj. Perfekt till jul eller till halloween.",
+  "portions": 8,
+  "ingredients": [
+    {
+      "name": "stor gul lök",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "grönkål",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "name": "vitlöksklyftor",
+      "quantity": 3,
+      "unit": "st"
+    },
+    {
+      "name": "högrev",
+      "quantity": 1,
+      "unit": "kg"
+    },
+    {
+      "name": "smör, att steka i",
+      "quantity": 0,
+      "unit": "efter smak"
+    },
+    {
+      "name": "malen spiskummin",
+      "quantity": 0,
+      "unit": "efter smak"
+    },
+    {
+      "name": "malen koriander",
+      "quantity": 0,
+      "unit": "efter smak"
+    },
+    {
+      "name": "chilipulver",
+      "quantity": 0,
+      "unit": "efter smak"
+    },
+    {
+      "name": "salt",
+      "quantity": 0,
+      "unit": "efter smak"
+    },
+    {
+      "name": "svartpeppar",
+      "quantity": 0,
+      "unit": "efter smak"
+    },
+    {
+      "name": "rödbetor",
+      "quantity": 1,
+      "unit": "kg"
+    },
+    {
+      "name": "vatten",
+      "quantity": 1.2,
+      "unit": "liter"
+    },
+    {
+      "name": "lagerblad stort",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "morötter",
+      "quantity": 4,
+      "unit": "st"
+    },
+    {
+      "name": "kidneybönor",
+      "quantity": 380,
+      "unit": "g"
+    },
+    {
+      "name": "paprikasallad",
+      "quantity": 1,
+      "unit": "dl"
+    },
+    {
+      "name": "äppelcidervinäger",
+      "quantity": 2,
+      "unit": "tsk"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "instruction": "Hacka lök och grönkål. Finhacka vitlöken. Putsa högreven från hinnor och segt fett. Skär köttet i bitar på cirka 3 cm",
+      "minutes": 0
+    },
+    {
+      "order": 2,
+      "instruction": "Värm smör i en stekpanna och lägg i löken. Låt den börja mjukna och lägg sedan i grönkålen. Stek tills allt mjuknat. Lägg i vitlöken och stek ytterligare 1 minut. Lägg över i en stor gryta.",
+      "minutes": 0
+    },
+    {
+      "order": 3,
+      "instruction": "Smält smör i en stekpanna, på hög värme, och lägg i hälften av köttet. Stek så det får yta runt om. Salta i början och pudra över spiskummin, koriander, chili och peppar på slutet. Lägg över i grytan. Upprepa med resten av köttet.",
+      "minutes": 0
+    },
+    {
+      "order": 4,
+      "instruction": "Skala och tärna rödbetorna i lagom munsbitar. Lägg rödbetorna i en stor gryta. Slå på vatten, salta och peppra och blanda allt. Lägg i två lagerblad. Sjud under gläntat lock lock i 40 minuter.",
+      "minutes": 40
+    },
+    {
+      "order": 5,
+      "instruction": "Skala och skiva morötterna. Skölj kidneybönorna i ett durkslag. Rör ner morötter, kidneybönor, paprikasallad och äppelcidervinäger i grytan och låt det sjuda i ytterligare 20 minuter under gläntat lock.",
+      "minutes": 20
+    }
+  ],
+  "categories": [
+    "Huvudrätt",
+    "Kött",
+    "Nötkött",
+    "Gryta",
+    "Julgryta",
+    "Halloweenmat",
+    "Höstmat",
+    "Skördetid",
+    "Vardagsmat",
+    "Vintermat"
+  ]
+}

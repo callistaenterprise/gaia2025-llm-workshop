@@ -1,0 +1,262 @@
+[
+  {
+    "url": "https://www.landleyskok.se/recept/rod-kottgryta-med-hogrev-och-rodbetor",
+    "siteNameSlug": "landleys-kok",
+    "recipeNameSlug": "rod-kottgryta-med-hogrev-och-rodbetor",
+    "recipe": {
+      "name": "Röd köttgryta med högrev och rödbetor",
+      "description": "Laga något gott och annorlunda – som en röd köttgryta med högrev och rödbetor! Denna påminner lite om en borsjtj. Perfekt till jul eller till halloween.",
+      "portions": 8,
+      "ingredients": [
+        {
+          "name": "stor gul lök",
+          "quantity": 1,
+          "unit": "st"
+        },
+        {
+          "name": "grönkål",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "name": "vitlöksklyftor",
+          "quantity": 3,
+          "unit": "st"
+        },
+        {
+          "name": "högrev",
+          "quantity": 1,
+          "unit": "kg"
+        },
+        {
+          "name": "smör, att steka i",
+          "quantity": 0,
+          "unit": "efter smak"
+        },
+        {
+          "name": "malen spiskummin",
+          "quantity": 0,
+          "unit": "efter smak"
+        },
+        {
+          "name": "malen koriander",
+          "quantity": 0,
+          "unit": "efter smak"
+        },
+        {
+          "name": "chilipulver (habanero)",
+          "quantity": 0,
+          "unit": "efter smak"
+        },
+        {
+          "name": "salt",
+          "quantity": 0,
+          "unit": "efter smak"
+        },
+        {
+          "name": "svartpeppar",
+          "quantity": 0,
+          "unit": "efter smak"
+        },
+        {
+          "name": "rödbetor",
+          "quantity": 1,
+          "unit": "kg"
+        },
+        {
+          "name": "vatten",
+          "quantity": 1.2,
+          "unit": "l"
+        },
+        {
+          "name": "lagerblad stort",
+          "quantity": 1,
+          "unit": "st"
+        },
+        {
+          "name": "morötter",
+          "quantity": 4,
+          "unit": "st"
+        },
+        {
+          "name": "kidneybönor",
+          "quantity": 380,
+          "unit": "g"
+        },
+        {
+          "name": "paprikasallad",
+          "quantity": 1,
+          "unit": "dl"
+        },
+        {
+          "name": "äppelcidervinäger",
+          "quantity": 2,
+          "unit": "tsk"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Hacka lök och grönkål. Finhacka vitlöken. Putsa högreven från hinnor och segt fett. Skär köttet i bitar på cirka 3 cm",
+          "minutes": 0
+        },
+        {
+          "order": 2,
+          "instruction": "Värm smör i en stekpanna och lägg i löken. Låt den börja mjukna och lägg sedan i grönkålen. Stek tills allt mjuknat. Lägg i vitlöken och stek ytterligare 1 minut. Lägg över i en stor gryta.",
+          "minutes": 0
+        },
+        {
+          "order": 3,
+          "instruction": "Smält smör i en stekpanna, på hög värme, och lägg i hälften av köttet. Stek så det får yta runt om. Salta i början och pudra över spiskummin, koriander, chili och peppar på slutet. Lägg över i grytan. Upprepa med resten av köttet.",
+          "minutes": 0
+        },
+        {
+          "order": 4,
+          "instruction": "Skala och tärna rödbetorna i lagom munsbitar. Lägg rödbetorna i en stor gryta. Slå på vatten, salta och peppra och blanda allt. Lägg i två lagerblad. Sjud under gläntat lock lock i 40 minuter.",
+          "minutes": 40
+        },
+        {
+          "order": 5,
+          "instruction": "Skala och skiva morötterna. Skölj kidneybönorna i ett durkslag. Rör ner morötter, kidneybönor, paprikasallad och äppelcidervinäger i grytan och låt det sjuda i ytterligare 20 minuter under gläntat lock.",
+          "minutes": 20
+        }
+      ],
+      "categories": [
+        "Huvudrätt",
+        "Kött",
+        "Nötkött",
+        "Gryta",
+        "Julgryta",
+        "Halloweenmat",
+        "Höstmat",
+        "Skördetid",
+        "Vardagsmat",
+        "Vintermat"
+      ]
+    },
+    "language": "sv",
+    "hitl": true,
+    "model": null
+  },
+  {
+    "url": "http://www.recept.com/potatissallad-viltsmakande-kottbullar/",
+    "siteNameSlug": "receptcom",
+    "recipeNameSlug": "potatissallad-viltsmakande-kottbullar",
+    "recipe": {
+      "name": "Potatissallad & Viltsmakande Köttbullar",
+      "description": "Det är inte helt enkelt att få tag på älgfärs, men här är ett enkelt sätt att ändå skapa viltinspirerad smak. Köttbullarna består av vanlig nötfärs, som smaksätts med rosmarin. Till detta serveras en hemmagjord potatissallad med grova bitar och rustik känsla. Den krämiga såsen görs på crème fraiche och kesella, och lite färsk timjan blir pricken över i.",
+      "portions": 4,
+      "ingredients": [
+        {
+          "name": "Potatisar",
+          "quantity": 8,
+          "unit": "st"
+        },
+        {
+          "name": "crème fraiche",
+          "quantity": 1,
+          "unit": "dl"
+        },
+        {
+          "name": "Kesella",
+          "quantity": 1.5,
+          "unit": "dl"
+        },
+        {
+          "name": "Färsk timjan",
+          "quantity": 0,
+          "unit": "efter smak"
+        },
+        {
+          "name": "salt",
+          "quantity": 0,
+          "unit": "efter smak"
+        },
+        {
+          "name": "peppar",
+          "quantity": 0,
+          "unit": "efter smak"
+        },
+        {
+          "name": "Nötfärs",
+          "quantity": 500,
+          "unit": "g"
+        },
+        {
+          "name": "mjölk (3 %)",
+          "quantity": 1,
+          "unit": "dl"
+        },
+        {
+          "name": "Ströbröd",
+          "quantity": 0.5,
+          "unit": "dl"
+        },
+        {
+          "name": "Gul lök",
+          "quantity": 1,
+          "unit": "st"
+        },
+        {
+          "name": "Vitlöksklyfta",
+          "quantity": 1,
+          "unit": "st"
+        },
+        {
+          "name": "Ägg",
+          "quantity": 1,
+          "unit": "st"
+        },
+        {
+          "name": "nymalen svartpeppar",
+          "quantity": 0.5,
+          "unit": "tsk"
+        },
+        {
+          "name": "rosmarin (torkad, malen)",
+          "quantity": 0.5,
+          "unit": "tsk"
+        },
+        {
+          "name": "salt",
+          "quantity": 1,
+          "unit": "tsk"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Skala potatisen och koka den. Häll av vattnet och låt den kallna helt. Skala och finhacka löken till köttbullarna. Smält en matsked smör i en stekpanna och fräs upp löken. Stek tills löken bli mjuk, men den ska inte få någon färg. Häll över i en skål och låt svalna. Blanda mjölk och ströbröd eller havregryn i en bunke. Låt stå och dra in tills vätskan har absorberats.",
+          "minutes": 0
+        },
+        {
+          "order": 2,
+          "instruction": "Tillsätt köttfärs, svartpeppar, salt, rosmarin, lök och riven vitlök. Blanda ordentligt, rör gärna med träsked. Tillsätt ägg och rör kraftigt tills allt har blandats. Överarbeta inte smeten, för då blir den trådig. Provstek eventuellt en bit färs och smaka av med mer salt och peppar.",
+          "minutes": 0
+        },
+        {
+          "order": 3,
+          "instruction": "Ta fram en skål med kallt vatten. Använd ett matskedsmått för att mäta upp smet. Pressa i och gröp sedan ur och klicka ut på en skärbräda. Fortsätt tills smeten är slut. Blöt händerna i vattnet och forma små runda köttbullar med händerna. Lägg tillbaka dem på skärbrädan. Enklast är att rulla färdigt alla, innan man börjar steka.",
+          "minutes": 0
+        },
+        {
+          "order": 4,
+          "instruction": "Värm en stekpanna, gärna av gjutjärn, tills den blir ganska het. Lägg i en rejäl klick smör och låt den smälta. När det har slutat bubbla är det dags att lägga i köttbullar. Stek inte fler än att det finns lite plats över i pannan. Använd en stekspade eller tesked med långt skaft och knuffa försiktigt runt köttbullarna, så att de bryns runt om. När de har fått stekyta kan du skaka pannan istället, utan att de går sönder. Sänk värmen något (till medelvärme) och stek köttbullarna tills de är helt genomstekta. Skär gärna i en för att se när de är klara.",
+          "minutes": 0
+        },
+        {
+          "order": 5,
+          "instruction": "Blanda kesella, creme fraiche och hackad timjan i en skål. Skär den kalla potatisen i lagom stora bitar och blanda ner i timjansåsen. Smaka av med salt och nymalen svartpeppar. Servera köttbullarna med potatissallad och nykokta bönor, haricot verts eller broccoli.",
+          "minutes": 0
+        }
+      ],
+      "categories": [
+        "Huvudrätter",
+        "Nötkött"
+      ]
+    },
+    "language": "sv",
+    "hitl": true,
+    "model": null
+  }
+]

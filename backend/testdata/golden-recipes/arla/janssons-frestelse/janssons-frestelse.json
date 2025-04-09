@@ -1,0 +1,85 @@
+{
+  "url": "https://www.arla.se/recept/janssons-frestelse/",
+  "siteNameSlug": "arla",
+  "recipeNameSlug": "janssons-frestelse",
+  "recipe": {
+    "name": "Janssons frestelse",
+    "description": "Klassikern Janssons frestelse är ett måste på alla årets mathögtider. Lika självklar till jul som till påsk! Följ det här receptet för en krämig, gammaldags Jansson där ansjovisen skänker både god smak och sälta. Om du vill förbereda går bra att laga Janssons frestelsen helt klar för att sedan frysa in. Klicka i så fall gärna på lite extra smör när du värmer upp den i ugnen på 150°.",
+    "portions": 4,
+    "ingredients": [
+      {
+        "name": "Gul lök",
+        "quantity": 1,
+        "unit": "st"
+      },
+      {
+        "name": "Svenskt Smör från Arla\u00AE",
+        "quantity": 3,
+        "unit": "msk"
+      },
+      {
+        "name": "Fast potatis",
+        "quantity": 750,
+        "unit": "g"
+      },
+      {
+        "name": "Ansjovisfilé",
+        "quantity": 125,
+        "unit": "g"
+      },
+      {
+        "name": "Arla Ko\u00AE Vispgrädde",
+        "quantity": 3,
+        "unit": "dl"
+      },
+      {
+        "name": "Ströbröd",
+        "quantity": 1,
+        "unit": "msk"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Sätt ugnen på 200° eller 180° varmluft.",
+        "minutes": 0
+      },
+      {
+        "order": 2,
+        "instruction": "Skala och skär löken i tunna skivor. Fräs den mjuk i 1 msk smör.",
+        "minutes": 0
+      },
+      {
+        "order": 3,
+        "instruction": "Skala potatisen och skär den i tunna strimlor. Blanda ansjovisspadet med grädden.",
+        "minutes": 0
+      },
+      {
+        "order": 4,
+        "instruction": "Smörj en ugnssäker form, ca 20x30 cm.",
+        "minutes": 0
+      },
+      {
+        "order": 5,
+        "instruction": "Lägg i ett lager potatis, därefter lök, ansjovis och sedan resten av potatisen. Häll på grädden, strö över ströbrödet. Klicka på smör",
+        "minutes": 0
+      },
+      {
+        "order": 6,
+        "instruction": "Grädda din Jansson i nedre delen av ugnen 45-50 min, eller tills den är helt genomgräddad.",
+        "minutes": 47.5
+      },
+      {
+        "order": 7,
+        "instruction": "Låt Janssons frestelsen stå en stund innan den serveras så att smakerna sätter sig.",
+        "minutes": 0
+      }
+    ],
+    "categories": [
+      "Buffé", "Huvudrätt", "Lunch", "Middag"
+    ]
+  },
+  "language": "sv",
+  "hitl": true,
+  "model": null
+}

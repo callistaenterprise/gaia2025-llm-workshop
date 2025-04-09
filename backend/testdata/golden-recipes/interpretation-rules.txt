@@ -1,0 +1,13 @@
+Ingredienser med intervall => medelvärdet
+
+Kryddor utan enhet tex Salt eller Peppar => Salt 0 efter smak
+
+Ingredienser utan med alternativ inom parentes => ta med parentesen
+
+Konstiga tecken tex Registrerat Varumärke => ersäts med utf-8 escape, tex \u00AE
+
+Steg som slutar med "i 3 minuter." => <order> <beskrivning - "i 3 minuter."> <3>
+
+
+
+

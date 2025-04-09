@@ -1,0 +1,566 @@
+{
+  "startDate": "2024-09-09T15:29:31.017Z",
+  "endDate": "2024-09-15T15:29:31.017Z",
+  "foodDays": [
+    {
+      "date": "2024-09-08T22:00:00.000Z",
+      "breakfast": {
+        "recipe": {
+          "id": "667845681ca9026a5716d1f8",
+          "name": "Skumkulor",
+          "description": "är jättegott",
+          "portions": 4,
+          "ingredients": [
+            {
+              "name": "pdf",
+              "quantity": 1,
+              "unit": "st",
+              "_id": "667845681ca9026a5716d1f9"
+            },
+            {
+              "name": "xxcv",
+              "quantity": 2,
+              "unit": "msk",
+              "_id": "667845681ca9026a5716d1fa"
+            }
+          ],
+          "steps": [],
+          "categories": []
+        },
+        "recipeId": "667845681ca9026a5716d1f8",
+        "portions": 2
+      },
+      "lunch": null,
+      "dinner": {
+        "recipe": {
+          "id": "669b80fe4f39f4477c0092c4",
+          "name": "Pankakor ",
+          "description": "Ediths favorit mat",
+          "portions": 4,
+          "ingredients": [
+            {
+              "name": "Mjöl",
+              "quantity": 1,
+              "unit": "kg",
+              "_id": "669b80fe4f39f4477c0092c5"
+            },
+            {
+              "name": "Mjölk",
+              "quantity": 2,
+              "unit": "dl",
+              "_id": "669b80fe4f39f4477c0092c6"
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "skala äggen",
+              "minutes": 1,
+              "_id": "669b80fe4f39f4477c0092c7"
+            }
+          ],
+          "categories": [
+            "Vego"
+          ]
+        },
+        "recipeId": "669b80fe4f39f4477c0092c4",
+        "portions": 3
+      }
+    },
+    {
+      "date": "2024-09-09T22:00:00.000Z",
+      "breakfast": {
+        "recipe": {
+          "id": "66791b381ca9026a5716d2d5",
+          "name": "Lingonsylt",
+          "description": "sdfdf",
+          "portions": 4,
+          "ingredients": [
+            {
+              "name": "sdf",
+              "quantity": 1,
+              "unit": "st",
+              "_id": "66791b381ca9026a5716d2d6"
+            },
+            {
+              "name": "fewer",
+              "quantity": 3,
+              "unit": "ml",
+              "_id": "66791b381ca9026a5716d2d7"
+            }
+          ],
+          "steps": [],
+          "categories": []
+        },
+        "recipeId": "66791b381ca9026a5716d2d5",
+        "portions": 2
+      },
+      "lunch": null,
+      "dinner": {
+        "recipe": {
+          "id": "669b7e064f39f4477c009263",
+          "name": "Cevape",
+          "description": "Bästa juggematen",
+          "portions": 4,
+          "ingredients": [
+            {
+              "name": "Blandfärs",
+              "quantity": 1,
+              "unit": "kg",
+              "_id": "669b7e064f39f4477c009264"
+            },
+            {
+              "name": "vitlök",
+              "quantity": 2,
+              "unit": "st",
+              "_id": "669b7e064f39f4477c009265"
+            },
+            {
+              "name": "ägg",
+              "quantity": 1,
+              "unit": "st",
+              "_id": "669b7e064f39f4477c009266"
+            },
+            {
+              "name": "öl",
+              "quantity": 1,
+              "unit": "msk",
+              "_id": "669b7e064f39f4477c009267"
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "blanda väl",
+              "minutes": 2,
+              "_id": "669b7e064f39f4477c009268"
+            },
+            {
+              "order": 2,
+              "instruction": "Forma järpar",
+              "minutes": 10,
+              "_id": "669b7e064f39f4477c009269"
+            },
+            {
+              "order": 3,
+              "instruction": "Stek",
+              "minutes": 0,
+              "_id": "669b7e064f39f4477c00926a"
+            }
+          ],
+          "categories": [
+            "Kött",
+            "Juggemat"
+          ]
+        },
+        "recipeId": "669b7e064f39f4477c009263",
+        "portions": 3
+      }
+    },
+    {
+      "date": "2024-09-10T22:00:00.000Z",
+      "breakfast": {
+        "recipe": {
+          "id": "669fc2e9ee6800b68b0b1a54",
+          "name": "Hamburgare",
+          "description": "USAs nationalrätt",
+          "portions": 4,
+          "ingredients": [
+            {
+              "name": "kött",
+              "quantity": 1,
+              "unit": "kg",
+              "_id": "669fc2e9ee6800b68b0b1a55"
+            },
+            {
+              "name": "bröd",
+              "quantity": 8,
+              "unit": "st",
+              "_id": "669fc2e9ee6800b68b0b1a56"
+            },
+            {
+              "name": "lök",
+              "quantity": 1,
+              "unit": "st",
+              "_id": "669fc2e9ee6800b68b0b1a57"
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "gör klumpar av köttet",
+              "minutes": 3,
+              "_id": "669fc2e9ee6800b68b0b1a58"
+            },
+            {
+              "order": 1,
+              "instruction": "Stek 1 min per sida",
+              "minutes": 3,
+              "_id": "669fc2e9ee6800b68b0b1a59"
+            }
+          ],
+          "categories": [
+            "Fest"
+          ]
+        },
+        "recipeId": "669fc2e9ee6800b68b0b1a54",
+        "portions": 2
+      },
+      "lunch": null,
+      "dinner": {
+        "recipe": {
+          "id": "66791b381ca9026a5716d2d5",
+          "name": "Lingonsylt",
+          "description": "sdfdf",
+          "portions": 4,
+          "ingredients": [
+            {
+              "name": "sdf",
+              "quantity": 1,
+              "unit": "st",
+              "_id": "66791b381ca9026a5716d2d6"
+            },
+            {
+              "name": "fewer",
+              "quantity": 3,
+              "unit": "ml",
+              "_id": "66791b381ca9026a5716d2d7"
+            }
+          ],
+          "steps": [],
+          "categories": []
+        },
+        "recipeId": "66791b381ca9026a5716d2d5",
+        "portions": 3
+      }
+    },
+    {
+      "date": "2024-09-11T22:00:00.000Z",
+      "breakfast": {
+        "recipe": {
+          "id": "66a78ca69e24e0809d41582e",
+          "name": "Vanlig Frukost",
+          "description": "dfdf",
+          "portions": 42,
+          "ingredients": [
+            {
+              "name": "pdf",
+              "quantity": 1,
+              "unit": "st",
+              "_id": "66a78ca69e24e0809d41582f"
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "dfdf",
+              "minutes": 0,
+              "_id": "66a78ca69e24e0809d415830"
+            }
+          ],
+          "categories": [
+            "Frukost"
+          ]
+        },
+        "recipeId": "66a78ca69e24e0809d41582e",
+        "portions": 2
+      },
+      "lunch": null,
+      "dinner": {
+        "recipe": {
+          "id": "667845681ca9026a5716d1f8",
+          "name": "Skumkulor",
+          "description": "är jättegott",
+          "portions": 4,
+          "ingredients": [
+            {
+              "name": "pdf",
+              "quantity": 1,
+              "unit": "st",
+              "_id": "667845681ca9026a5716d1f9"
+            },
+            {
+              "name": "xxcv",
+              "quantity": 2,
+              "unit": "msk",
+              "_id": "667845681ca9026a5716d1fa"
+            }
+          ],
+          "steps": [],
+          "categories": []
+        },
+        "recipeId": "667845681ca9026a5716d1f8",
+        "portions": 3
+      }
+    },
+    {
+      "date": "2024-09-12T22:00:00.000Z",
+      "breakfast": {
+        "recipe": {
+          "id": "66791b381ca9026a5716d2d5",
+          "name": "Lingonsylt",
+          "description": "sdfdf",
+          "portions": 4,
+          "ingredients": [
+            {
+              "name": "sdf",
+              "quantity": 1,
+              "unit": "st",
+              "_id": "66791b381ca9026a5716d2d6"
+            },
+            {
+              "name": "fewer",
+              "quantity": 3,
+              "unit": "ml",
+              "_id": "66791b381ca9026a5716d2d7"
+            }
+          ],
+          "steps": [],
+          "categories": []
+        },
+        "recipeId": "66791b381ca9026a5716d2d5",
+        "portions": 2
+      },
+      "lunch": null,
+      "dinner": {
+        "recipe": {
+          "id": "66a778a6ee6800b68b0b2cd8",
+          "name": "test2",
+          "description": "asdff",
+          "portions": 4,
+          "ingredients": [
+            {
+              "name": "pdf",
+              "quantity": 1,
+              "unit": "st",
+              "_id": "66a778a6ee6800b68b0b2cd9"
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "koka",
+              "minutes": 1,
+              "_id": "66a778a6ee6800b68b0b2cda"
+            }
+          ],
+          "categories": [
+            "sdf"
+          ]
+        },
+        "recipeId": "66a778a6ee6800b68b0b2cd8",
+        "portions": 3
+      }
+    },
+    {
+      "date": "2024-09-13T22:00:00.000Z",
+      "breakfast": {
+        "recipe": {
+          "id": "667c7832d250f1ec047cf083",
+          "name": "Pankakor",
+          "description": "Jättegoda till julafton",
+          "portions": 4,
+          "ingredients": [
+            {
+              "name": "Mjölk",
+              "quantity": 1,
+              "unit": "l",
+              "_id": "667c7832d250f1ec047cf084"
+            },
+            {
+              "name": "Mjöl",
+              "quantity": 1,
+              "unit": "dl",
+              "_id": "667c7832d250f1ec047cf085"
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Värm pannan",
+              "minutes": 2,
+              "_id": "667c7832d250f1ec047cf086"
+            },
+            {
+              "order": 1,
+              "instruction": "Blanda ingredienser",
+              "minutes": 5,
+              "_id": "667c7832d250f1ec047cf087"
+            }
+          ],
+          "categories": []
+        },
+        "recipeId": "667c7832d250f1ec047cf083",
+        "portions": 3
+      },
+      "lunch": {
+        "recipe": {
+          "id": "669b7f884f39f4477c009298",
+          "name": "Risotto",
+          "description": "Pappas favorit",
+          "portions": 4,
+          "ingredients": [
+            {
+              "name": "Arborioris",
+              "quantity": 500,
+              "unit": "g",
+              "_id": "669b7f884f39f4477c009299"
+            },
+            {
+              "name": "Svamp",
+              "quantity": 200,
+              "unit": "g",
+              "_id": "669b7f884f39f4477c00929a"
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Skala löken",
+              "minutes": 0,
+              "_id": "669b7f884f39f4477c00929b"
+            },
+            {
+              "order": 2,
+              "instruction": "Skör svampen",
+              "minutes": 0,
+              "_id": "669b7f884f39f4477c00929c"
+            }
+          ],
+          "categories": [
+            "Vego",
+            "Svampmat"
+          ]
+        },
+        "recipeId": "669b7f884f39f4477c009298",
+        "portions": 3
+      },
+      "dinner": {
+        "recipe": {
+          "id": "669b80fe4f39f4477c0092c4",
+          "name": "Pankakor ",
+          "description": "Ediths favorit mat",
+          "portions": 4,
+          "ingredients": [
+            {
+              "name": "Mjöl",
+              "quantity": 1,
+              "unit": "kg",
+              "_id": "669b80fe4f39f4477c0092c5"
+            },
+            {
+              "name": "Mjölk",
+              "quantity": 2,
+              "unit": "dl",
+              "_id": "669b80fe4f39f4477c0092c6"
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "skala äggen",
+              "minutes": 1,
+              "_id": "669b80fe4f39f4477c0092c7"
+            }
+          ],
+          "categories": [
+            "Vego"
+          ]
+        },
+        "recipeId": "669b80fe4f39f4477c0092c4",
+        "portions": 3
+      }
+    },
+    {
+      "date": "2024-09-14T22:00:00.000Z",
+      "breakfast": {
+        "recipe": {
+          "id": "66791b381ca9026a5716d2d5",
+          "name": "Lingonsylt",
+          "description": "sdfdf",
+          "portions": 4,
+          "ingredients": [
+            {
+              "name": "sdf",
+              "quantity": 1,
+              "unit": "st",
+              "_id": "66791b381ca9026a5716d2d6"
+            },
+            {
+              "name": "fewer",
+              "quantity": 3,
+              "unit": "ml",
+              "_id": "66791b381ca9026a5716d2d7"
+            }
+          ],
+          "steps": [],
+          "categories": []
+        },
+        "recipeId": "66791b381ca9026a5716d2d5",
+        "portions": 3
+      },
+      "lunch": {
+        "recipe": {
+          "id": "6679c2251a50f548a8e734ad",
+          "name": "Kött&Blåbär",
+          "description": "Werner",
+          "portions": 4,
+          "ingredients": [
+            {
+              "name": "Mjölk",
+              "quantity": 1,
+              "unit": "l",
+              "_id": "6679c2251a50f548a8e734ae"
+            }
+          ],
+          "steps": [],
+          "categories": []
+        },
+        "recipeId": "6679c2251a50f548a8e734ad",
+        "portions": 3
+      },
+      "dinner": {
+        "recipe": {
+          "id": "669b7f884f39f4477c009298",
+          "name": "Risotto",
+          "description": "Pappas favorit",
+          "portions": 4,
+          "ingredients": [
+            {
+              "name": "Arborioris",
+              "quantity": 500,
+              "unit": "g",
+              "_id": "669b7f884f39f4477c009299"
+            },
+            {
+              "name": "Svamp",
+              "quantity": 200,
+              "unit": "g",
+              "_id": "669b7f884f39f4477c00929a"
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Skala löken",
+              "minutes": 0,
+              "_id": "669b7f884f39f4477c00929b"
+            },
+            {
+              "order": 2,
+              "instruction": "Skör svampen",
+              "minutes": 0,
+              "_id": "669b7f884f39f4477c00929c"
+            }
+          ],
+          "categories": [
+            "Vego",
+            "Svampmat"
+          ]
+        },
+        "recipeId": "669b7f884f39f4477c009298",
+        "portions": 3
+      }
+    }
+  ]
+}

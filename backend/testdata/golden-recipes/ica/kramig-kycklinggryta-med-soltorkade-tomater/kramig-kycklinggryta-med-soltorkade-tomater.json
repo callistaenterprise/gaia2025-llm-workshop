@@ -1,0 +1,97 @@
+{
+  "name": "Krämig kycklinggryta med soltorkade tomater",
+  "description": "En superenkel kycklinggryta som går fort att tillaga. Stek kycklingen tills den har en perfekt innertemperatur, tillsätt crème fraiche, buljong och soltorkade tomater för att få den mustiga och goda smaken. Servera kycklinggrytan med ris och sockerärtor. Världens bästa kycklingrecept!",
+  "portions": 4,
+  "ingredients": [
+    {
+      "name": "ris eller couscous",
+      "quantity": 4,
+      "unit": "portioner"
+    },
+    {
+      "name": "kycklingfilé eller kycklinginnerfilé",
+      "quantity": 650,
+      "unit": "g"
+    },
+    {
+      "name": "olja",
+      "quantity": 1,
+      "unit": "msk"
+    },
+    {
+      "name": "salt",
+      "quantity": 0,
+      "unit": "efter smak"
+    },
+    {
+      "name": "peppar",
+      "quantity": 0,
+      "unit": "efter smak"
+    },
+    {
+      "name": "vitlöksklyfta",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "crème fraiche (gärna fetaost och soltorkad tomat)",
+      "quantity": 2,
+      "unit": "dl"
+    },
+    {
+      "name": "kycklingbuljong (vatten och tärning eller fond)",
+      "quantity": 2.5,
+      "unit": "dl"
+    },
+    {
+      "name": "soltorkade tomater",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "name": "gröna ärtor eller sockerärtor",
+      "quantity": 250,
+      "unit": "g"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "instruction": "Tina kycklingen om fryst används.",
+      "minutes": 0
+    },
+    {
+      "order": 2,
+      "instruction": "Koka riset enligt anvisning på förpackningen.",
+      "minutes": 0
+    },
+    {
+      "order": 3,
+      "instruction": "Strimla kycklingen och stek den i oljan i en stekpanna och krydda med salt och peppar. Sänk värmen, pressa i vitlöken och häll i crème fraiche och buljong.",
+      "minutes": 0
+    },
+    {
+      "order": 4,
+      "instruction": "Strimla tomaterna och rör ner i grytan och sjud",
+      "minutes": 5
+    },
+    {
+      "order": 5,
+      "instruction": "Koka ärtorna i saltat vatten enligt anvisningen på förpackningen eller socker ärtor",
+      "minutes": 3
+    },
+    {
+      "order": 6,
+      "instruction": "Servera grytan med ris och sockerärtor.",
+      "minutes": 0
+    }
+  ],
+  "categories": [
+    "Köttgryta",
+    "Kyckling med bacon",
+    "Vardagsmat",
+    "Enkel billig mat",
+    "Krämig kyckling",
+    "Billigt kött recept"
+  ]
+}

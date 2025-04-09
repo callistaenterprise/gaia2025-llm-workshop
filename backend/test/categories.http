@@ -1,0 +1,14 @@
+GET localhost:3000/categories
+
+###
+
+POST localhost:3000/categories
+content-type: application/json
+
+{
+  "name": "ToDelete"
+}
+
+###
+
+DELETE localhost:3000/categories/669faab2dc9d460e5390c72d

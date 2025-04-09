@@ -1,0 +1,153 @@
+GET http://localhost:3000/recipes
+
+###
+
+POST http://localhost:3000/recipes
+content-type: application/json
+
+{
+  "name": "Fish & Chips",
+  "description": "Enda ätbara engelska rätten.",
+  "ingredients": [
+    {
+      "name": "Torsk",
+      "quantity": 200,
+      "unit": "g"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "instruction": "Häll oljan i en kastrull",
+      "minutes": 1
+    }
+  ],
+  "categories": [ "Fisk", "Bakfyllemat" ],
+  "portions": 4
+}
+
+###
+
+POST http://localhost:3000/recipes
+content-type: application/json
+
+{
+  "name": "Čevape",
+  "description": "Kroatiens nationalrätt",
+  "ingredients": [
+    {
+      "name": "Lammfärs",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "name": "Blandfärs",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "name": "Vitlök",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "Ägg",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "Vegeta",
+      "quantity": 1,
+      "unit": "msk"
+    },
+    {
+      "name": "Öl",
+      "quantity": 2,
+      "unit": "msk"
+    },
+    {
+      "name": "Ajvar",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "name": "Silverlök",
+      "quantity": 2,
+      "unit": "st"
+    },
+    {
+      "name": "Potatis",
+      "quantity": 1,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "instruction": "Sätt ugnen på 200°.",
+      "minutes": 0
+    },   {
+      "order": 1,
+      "instruction": "Tvätta och klyfta potatisen. Lägg på en plåt och ringla olja över. Sätt in i ugnen.",
+      "minutes": 5
+    },
+    {
+      "order": 1,
+      "instruction": "Blanda köttfärs, ägg, öl, vegeta och pressad vitlök i en bunke. Se till att blanda väl och få en slät smet",
+      "minutes": 5
+    },
+    {
+      "order": 2,
+      "instruction": "Forma cevape och lägg på en plåt på bakplåtspapper.",
+      "minutes": 15
+    },
+    {
+      "order": 3,
+      "instruction": "Låt stå i kylen så de blir lite hårda",
+      "minutes": 15
+    },
+    {
+      "order": 3,
+      "instruction": "Hacka silverlök i cm-kuber",
+      "minutes": 3
+    },
+    {
+      "order": 5,
+      "instruction": "Grilla. Se till att vända ofta",
+      "minutes": 15
+    },
+    {
+      "order": 3,
+      "instruction": "Servera Čevaperna direkt från grillen med lök och ajvar.",
+      "minutes": 0
+    }
+  ],
+  "categories": [ "Kött", "Fest", "Grill" ],
+  "portions": 4,
+  "stars": 5
+}
+
+###
+
+POST http://localhost:3000/recipes/parse/url
+content-type: application/json
+
+{
+  "url": "https://receptfavoriter.se/recept/sashimi-med-lax.html"
+}
+
+###
+
+POST http://localhost:3000/recipes/parse/url
+content-type: application/json
+
+{
+"url": "https://www.viktvaktarna.se/se/recept/bucatini-rostad-blomkal--och-vitloksss/650ad9d25599ac569e87b33b"
+}
+
+###
+
+POST http://192.168.0.8:8081/api/needs
+content-type: application/json
+
+{"description": "Onion", "amount": 1}

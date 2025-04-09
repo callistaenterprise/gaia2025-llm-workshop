@@ -1,0 +1,138 @@
+{
+  "name": "Fish and chips – älskad engelsk klassiker",
+  "description": "Fish and chips är ett måste vid varje Englandsbesök. Servera den frasiga fisken på klassiskt vis, inslagna i en bit tidningspapper och med en god gurksås till. Ett recept som får varje anglofil att le lyckligt.",
+  "portions": 4,
+  "ingredients": [
+    {
+      "name": "bakplåtspapper",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "salt",
+      "quantity": 1,
+      "unit": "tsk"
+    },
+    {
+      "name": "olivolja",
+      "quantity": 1,
+      "unit": "msk"
+    },
+    {
+      "name": "bakpotatisar",
+      "quantity": 3,
+      "unit": "st"
+    },
+    {
+      "name": "smör",
+      "quantity": 1,
+      "unit": "msk"
+    },
+    {
+      "name": "olivolja",
+      "quantity": 1,
+      "unit": "msk"
+    },
+    {
+      "name": "ströbröd",
+      "quantity": 2,
+      "unit": "dl"
+    },
+    {
+      "name": "ägg",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "vetemjöl",
+      "quantity": 1,
+      "unit": "dl"
+    },
+    {
+      "name": "svartpeppar",
+      "quantity": 1,
+      "unit": "krm"
+    },
+    {
+      "name": "salt",
+      "quantity": 1,
+      "unit": "krm"
+    },
+    {
+      "name": "koljafilé, eller torskfilé",
+      "quantity": 600,
+      "unit": "g"
+    },
+    {
+      "name": "svartpeppar",
+      "quantity": 1,
+      "unit": "krm"
+    },
+    {
+      "name": "salt",
+      "quantity": 1,
+      "unit": "krm"
+    },
+    {
+      "name": "majonnäs",
+      "quantity": 0.5,
+      "unit": "dl"
+    },
+    {
+      "name": "crème fraiche",
+      "quantity": 1.5,
+      "unit": "dl"
+    },
+    {
+      "name": "gräslök, hackad",
+      "quantity": 2,
+      "unit": "msk"
+    },
+    {
+      "name": "gurka",
+      "quantity": 0.5,
+      "unit": "st"
+    },
+    {
+      "name": "citron, i klyftor",
+      "quantity": 0.5,
+      "unit": "st"
+    },
+    {
+      "name": "blandad sallad",
+      "quantity": 50,
+      "unit": "g"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "instruction": "Sätt ugnen på 225 grader.",
+      "minutes": 0
+    },
+    {
+      "order": 2,
+      "instruction": "Chips: Skär potatisen i avlånga stavar. Lägg på en plåt med bakplåtspapper och ringla över olja och salta. Blanda om ordentligt och fördela potatisstavarna på plåten så att de inte ligger på varandra. Baka i ugnen cirka 30 minuter eller tills de har fått fin färg och blivit krispiga.",
+      "minutes": 30
+    },
+    {
+      "order": 3,
+      "instruction": "Fish: Skär fiskfiléerna i decimeterlånga bitar. Salta och peppra på båda sidor. Vispa om ägget i en djup tallrik. Häll mjöl och ströbröd på varsin tallrik. Vänd fiskbitarna i mjöl, äggvispet och sist i ströbrödet. Hetta upp en stekpanna med smör och olja och stek fiskbitarna gyllenbruna på medelhög värme.",
+      "minutes": 0
+    },
+    {
+      "order": 4,
+      "instruction": "Sås: Tärna gurkan och finhacka gräslök. Blanda med creme fraiche och majonnäs och smaka av med salt och peppar.",
+      "minutes": 0
+    },
+    {
+      "order": 5,
+      "instruction": "Servera fish and chips på klassiskt vis, inslagna i en bit tidningspapper. Lägg en bit bakplåtspapper innerst så blir inte tidningspappret så blött.",
+      "minutes": 0
+    }
+  ],
+  "categories": [
+    "Fisk",
+    "Burgare"
+  ]
+}

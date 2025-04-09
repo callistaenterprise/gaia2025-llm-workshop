@@ -1,0 +1,183 @@
+[
+  {
+    "url": "https://www.ica.se/recept/kramig-kycklinggryta-med-soltorkade-tomater-723346/",
+    "siteNameSlug": "ica",
+    "recipeNameSlug": "kramig-kycklinggryta-med-soltorkade-tomater",
+    "recipe": {
+      "name": "Krämig kycklinggryta med soltorkade tomater",
+      "description": "En supegod och enkel kycklinggryta som går fort att tillaga. Stek kycklingen tills den har en perfekt innertemperatur, tillsätt crème fraiche, buljong och soltorkade tomater för att få den mustiga och goda smaken. Servera kycklinggrytan med ris och sockerärtor. Världens bästa kycklingrecept!",
+      "portions": 4,
+      "ingredients": [
+        {
+          "name": "ris eller couscous",
+          "quantity": 4,
+          "unit": "port"
+        },
+        {
+          "name": "kycklingfilé eller kycklinginnerfilé",
+          "quantity": 650,
+          "unit": "g"
+        },
+        {
+          "name": "olja",
+          "quantity": 1,
+          "unit": "msk"
+        },
+        {
+          "name": "salt",
+          "quantity": 0,
+          "unit": "efter smak"
+        },
+        {
+          "name": "peppar",
+          "quantity": 0,
+          "unit": "efter smak"
+        },
+        {
+          "name": "vitlöksklyfta",
+          "quantity": 1,
+          "unit": "st"
+        },
+        {
+          "name": "crème fraiche (gärna fetaost och soltorkad tomat)",
+          "quantity": 2,
+          "unit": "dl"
+        },
+        {
+          "name": "kycklingbuljong (vatten och tärning eller fond)",
+          "quantity": 2.5,
+          "unit": "dl"
+        },
+        {
+          "name": "soltorkade tomater",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "name": "gröna ärtor eller sockerärtor",
+          "quantity": 250,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Tina kycklingen om fryst används.",
+          "minutes": 0
+        },
+        {
+          "order": 2,
+          "instruction": "Koka riset enligt anvisning på förpackningen.",
+          "minutes": 0
+        },
+        {
+          "order": 3,
+          "instruction": "Strimla kycklingen och stek den i oljan i en stekpanna och krydda med salt och peppar. Sänk värmen, pressa i vitlöken och häll i crème fraiche och buljong.",
+          "minutes": 0
+        },
+        {
+          "order": 4,
+          "instruction": "Strimla tomaterna och rör ner i grytan och sjud ca 5 minuter.",
+          "minutes": 5
+        },
+        {
+          "order": 5,
+          "instruction": "Koka ärtorna i saltat vatten enligt anvisningen på förpackningen eller sockerärtorna i ca 2 minuter.",
+          "minutes": 2
+        },
+        {
+          "order": 6,
+          "instruction": "Servera grytan med ris och sockerärtor.",
+          "minutes": 0
+        }
+      ],
+      "categories": [
+        "Köttgryta",
+        "Vardagsmat",
+        "Enkel billig mat",
+        "Billigt kött recept",
+        "Krämig kyckling",
+        "Billig gryta"
+      ]
+    },
+    "language": "sv",
+    "hitl": true,
+    "model": null
+  },
+  {
+    "url": "https://www.koket.se/grundrecept-pa-ugnspannkaka",
+    "siteNameSlug": "koket",
+    "recipeNameSlug": "basta-receptet-pa-ugnspankaka",
+    "recipe": {
+      "name": "Bästa receptet på ugnspannkaka",
+      "description": "Bästa receptet på ugnspannaka som du serverar med sylt och grädde. En riktigt hit för hela familjen och så enkelt att göra!",
+      "portions": 4,
+      "ingredients": [
+        {
+          "name": "vetemjöl",
+          "quantity": 3,
+          "unit": "dl"
+        },
+        {
+          "name": "salt",
+          "quantity": 1,
+          "unit": "tsk"
+        },
+        {
+          "name": "standardmjölk (3%)",
+          "quantity": 6,
+          "unit": "dl"
+        },
+        {
+          "name": "ägg",
+          "quantity": 3,
+          "unit": "st"
+        },
+        {
+          "name": "smör, till formen",
+          "quantity": 20,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Sätt ugnen på 225 grader.",
+          "minutes": 0
+        },
+        {
+          "order": 2,
+          "instruction": "Blanda mjöl och salt i en bunke. Tillsätt hälften av mjölken och vispa till en slät smet. Tillsätt sedan resterande mjölk och äggen, vispa helt slätt igen.",
+          "minutes": 0
+        },
+        {
+          "order": 3,
+          "instruction": "Lägg smöret in en ugnsform, ca 20x30 cm, och låt smälta i ugnen.",
+          "minutes": 0
+        },
+        {
+          "order": 4,
+          "instruction": "Ta ut formen och vinkla den så det hamnar smält smör över hela botten och upp på kanterna.",
+          "minutes": 0
+        },
+        {
+          "order": 5,
+          "instruction": "Häll på pannkakssmeten och grädda i ugnen i ca 30 minuter.",
+          "minutes": 30
+        },
+        {
+          "order": 6,
+          "instruction": "Servera med favoritsylten, vispad grädde och eventuellt lite färska bär.",
+          "minutes": 0
+        }
+      ],
+      "categories": [
+        "Pannkakor och plättar",
+        "Vardagsmiddag"
+      ]
+    },
+    "language": "sv",
+    "hitl": true,
+    "model": null
+  }
+]

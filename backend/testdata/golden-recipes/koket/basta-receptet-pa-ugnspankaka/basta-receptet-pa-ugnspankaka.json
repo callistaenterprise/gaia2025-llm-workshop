@@ -1,0 +1,68 @@
+{
+  "name": "Bästa receptet på ugnspannkaka",
+  "description": "Bästa receptet på ugnspannaka som du serverar med sylt och grädde. En riktigt hit för hela familjen och så enkelt att göra!",
+  "portions": 4,
+  "ingredients": [
+    {
+      "name": "vetemjöl",
+      "quantity": 3,
+      "unit": "dl"
+    },
+    {
+      "name": "salt",
+      "quantity": 1,
+      "unit": "tsk"
+    },
+    {
+      "name": "standardmjölk (3%)",
+      "quantity": 6,
+      "unit": "dl"
+    },
+    {
+      "name": "ägg",
+      "quantity": 3,
+      "unit": "st"
+    },
+    {
+      "name": "smör, till formen",
+      "quantity": 20,
+      "unit": "g"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "instruction": "Sätt ugnen på 225 grader.",
+      "minutes": 0
+    },
+    {
+      "order": 2,
+      "instruction": "Blanda mjöl och salt i en bunke. Tillsätt hälften av mjölken och vispa till en slät smet. Tillsätt sedan resterande mjölk och äggen, vispa helt slätt igen.",
+      "minutes": 0
+    },
+    {
+      "order": 3,
+      "instruction": "Lägg smöret in en ugnsform, ca 20x30 cm, och låt smälta i ugnen.",
+      "minutes": 0
+    },
+    {
+      "order": 4,
+      "instruction": "Ta ut formen och vinkla den så det hamnar smält smör över hela botten och upp på kanterna.",
+      "minutes": 0
+    },
+    {
+      "order": 5,
+      "instruction": "Häll på pannkakssmeten och grädda i ugnen i ca 30 minuter.",
+      "minutes": 30
+    },
+    {
+      "order": 6,
+      "instruction": "Servera med favoritsylten, vispad grädde och eventuellt lite färska bär.",
+      "minutes": 0
+    }
+  ],
+  "categories": [
+    "Pannkakor och plättar",
+    "Vardagsmiddag"
+  ]
+}

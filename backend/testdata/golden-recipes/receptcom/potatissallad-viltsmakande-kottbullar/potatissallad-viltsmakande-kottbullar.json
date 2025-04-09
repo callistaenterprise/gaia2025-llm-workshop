@@ -1,0 +1,113 @@
+{
+  "name": "Potatissallad & Viltsmakande Köttbullar",
+  "description": "Det är inte helt enkelt att få tag på älgfärs, men här är ett enkelt sätt att ändå skapa viltinspirerad smak. Köttbullarna består av vanlig nötfärs, som smaksätts med rosmarin. Till detta serveras en hemmagjord potatissallad med grova bitar och rustik känsla. Den krämiga såsen görs på crème fraiche och kesella, och lite färsk timjan blir pricken över i.",
+  "portions": 4,
+  "ingredients": [
+    {
+      "name": "Potatisar",
+      "quantity": 8,
+      "unit": "st"
+    },
+    {
+      "name": "crème fraiche",
+      "quantity": 1,
+      "unit": "dl"
+    },
+    {
+      "name": "Kesella",
+      "quantity": 1.5,
+      "unit": "dl"
+    },
+    {
+      "name": "Färsk timjan",
+      "quantity": 0,
+      "unit": "efter smak"
+    },
+    {
+      "name": "salt",
+      "quantity": 0,
+      "unit": "efter smak"
+    },
+    {
+      "name": "peppar",
+      "quantity": 0,
+      "unit": "efter smak"
+    },
+    {
+      "name": "Nötfärs",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "name": "mjölk (3 %)",
+      "quantity": 1,
+      "unit": "dl"
+    },
+    {
+      "name": "Ströbröd",
+      "quantity": 0.5,
+      "unit": "dl"
+    },
+    {
+      "name": "Gul lök",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "Vitlöksklyfta",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "Ägg",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "nymalen svartpeppar",
+      "quantity": 0.5,
+      "unit": "tsk"
+    },
+    {
+      "name": "rosmarin (torkad, malen)",
+      "quantity": 0.5,
+      "unit": "tsk"
+    },
+    {
+      "name": "salt",
+      "quantity": 1,
+      "unit": "tsk"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "instruction": "Skala potatisen och koka den. Häll av vattnet och låt den kallna helt. Skala och finhacka löken till köttbullarna. Smält en matsked smör i en stekpanna och fräs upp löken. Stek tills löken bli mjuk, men den ska inte få någon färg. Häll över i en skål och låt svalna. Blanda mjölk och ströbröd eller havregryn i en bunke. Låt stå och dra in tills vätskan har absorberats.",
+      "minutes": 0
+    },
+    {
+      "order": 2,
+      "instruction": "Tillsätt köttfärs, svartpeppar, salt, rosmarin, lök och riven vitlök. Blanda ordentligt, rör gärna med träsked. Tillsätt ägg och rör kraftigt tills allt har blandats. Överarbeta inte smeten, för då blir den trådig.",
+      "minutes": 0
+    },
+    {
+      "order": 3,
+      "instruction": "Ta fram en skål med kallt vatten. Använd ett matskedsmått för att mäta upp smet. Pressa i och gröp sedan ur och klicka ut på en skärbräda. Fortsätt tills smeten är slut. Blöt händerna i vattnet och forma små runda köttbullar med händerna.",
+      "minutes": 0
+    },
+    {
+      "order": 4,
+      "instruction": "Värm en stekpanna, gärna av gjutjärn, tills den blir ganska het. Lägg i en rejäl klick smör och låt den smälta. När det har slutat bubbla är det dags att lägga i köttbullar. Stek inte fler än att det finns lite plats över i pannan. Använd en stekspade eller tesked med långt skaft och knuffa försiktigt runt köttbullarna, så att de bryns runt om. När de har fått stekyta kan du skaka pannan istället, utan att de går sönder. Sänk värmen något (till medelvärme) och stek köttbullarna tills de är helt genomstekta. Skär gärna i en för att se när de är klara.",
+      "minutes": 0
+    },
+    {
+      "order": 5,
+      "instruction": "Blanda kesella, creme fraiche och hackad timjan i en skål. Skär den kalla potatisen i lagom stora bitar och blanda ner i timjansåsen. Smaka av med salt och nymalen svartpeppar. Servera köttbullarna med potatissallad och nykokta bönor, haricot verts eller broccoli.",
+      "minutes": 0
+    }
+  ],
+  "categories": [
+    "Huvudrätter",
+    "Nötkött"
+  ]
+}
