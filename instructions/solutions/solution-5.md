@@ -8,7 +8,7 @@
 
 ## Solution code for callGemini
 
-Open the file [`backend/src/services/parseRecipes.ts`](../backend/src/services/parseRecipes.ts) and replace function `callGemini` by using below code:
+Open the file [`backend/src/services/parseRecipes.ts`](../../backend/src/services/parseRecipes.ts) and replace function `callGemini` by using below code:
 
 ```
 export async function callGemini(prompt: string): Promise<string> {

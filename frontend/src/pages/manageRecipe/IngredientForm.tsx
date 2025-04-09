@@ -84,7 +84,7 @@ export const IngredientForm: React.FC<IngredientFormProps> = ({
             {!editIngredient && (
                 <div className="h-14">
                     <label className="block text-sm font-medium text-gray-700">&nbsp;</label>
-                    <Button onClick={handleSaveIngredient}>Add +</Button>
+                    <Button onClick={handleSaveIngredient}>Add ingredient</Button>
                 </div>
             )}
         </div>

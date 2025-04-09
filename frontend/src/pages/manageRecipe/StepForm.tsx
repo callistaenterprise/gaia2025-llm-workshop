@@ -67,7 +67,7 @@ export const StepForm: React.FC<StepFormProps> = ({
                 <div className="h-14 pt-5">
                     <button type="button" onClick={handleSaveStep}
                         className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 whitespace-nowrap w-auto">
-                        Save
+                        Add step
                     </button>
                 </div>
             )}

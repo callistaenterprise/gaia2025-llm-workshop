@@ -16,7 +16,7 @@ This solution improves the `compareRecipes` function by combining two ways of sc
 2. LLM scoring (`calculateLlmScore`) – Uses Gemini 2.0 Flash to evaluate the recipe. The model is given a prompt that explains how to judge the output, including what to penalize (like missing ingredients or incorrect quantities) and what to ignore (like formatting or stars). It returns a score and a short comment.
 
 #### Solution code:
-To incorportate these changes in your code, open the file [`backend/testdata/evaluation.ts`](../backend/testdata/evaluation.ts) and replace the draft implementation for `calculateFuzzyScore` and `calculateLlmScore` with below code:
+To incorportate these changes in your code, open the file [`backend/testdata/evaluation.ts`](../../backend/testdata/evaluation.ts) and replace the draft implementation for `calculateFuzzyScore` and `calculateLlmScore` with below code:
 
 ```
 
@@ -182,7 +182,7 @@ generationConfig: {
 These changes improved both recipe consistency and scoring in our tests. When running the full evaluation on all six golden recipes, the total average score increased from 0.89 to 0.93.
 
 #### Solution code:
-To incorportate these changes in your code, open the file [`backend/src/services/parseRecipes.ts`](../backend/src/services/parseRecipes.ts) and replace `recipeFromText` and `callGemini` by using below code:
+To incorportate these changes in your code, open the file [`backend/src/services/parseRecipes.ts`](../../backend/src/services/parseRecipes.ts) and replace `recipeFromText` and `callGemini` by using below code:
 
 ```
 export async function recipeFromText(recipeText: string, llmProvider: string):Promise<any> {
