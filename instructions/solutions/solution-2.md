@@ -8,7 +8,7 @@
 
 ## Solution for implementing htmlToText
 
-Open the file [`backend/src/services/parseRecipes.ts`](../backend/src/services/parseRecipes.ts) and replace the placeholder for `htmlToText` with below code:
+Open the file [`backend/src/services/parseRecipes.ts`](../../backend/src/services/parseRecipes.ts) and replace the placeholder for `htmlToText` with below code:
 
 ```
 export async function htmlToText(recipeHtml: string): Promise<string> {
