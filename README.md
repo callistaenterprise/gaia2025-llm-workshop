@@ -9,10 +9,50 @@ Welcome to the **Building LLM applications** workshop! In this hands-on session,
 
 **Bring your own computer to participate in the session.** To ensure everything runs smoothly and to save time during the event, please complete the following steps in advance. 
 
-### 1. Install Node.js
-Node.js is required for running JavaScript-based tools and applications. If you already have Node.js installed, you can skip this step.
+### 1. Install Node.js (Version 22 LTS)
+Node.js is required for running JavaScript-based tools and applications. We require *Node.js version 22 (LTS)*. The exercises have been tested and verified with version `v22.18.0`. Older versions might not be compatible.
 
-#### Windows
+We recommend using a version manager like `nvm` to install and manage Node.js, as it provides more flexibility.
+
+#### Recommended: Using a Node Version Manager (nvm)
+`nvm` allows you to easily switch between different Node.js versions.
+
+##### macOS & Linux
+1. Open your terminal and install nvm using the official install script:
+   ```bash
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+   ```
+2. Close and reopen your terminal for the changes to take effect.
+3. Install and use Node.js LTS version 22:
+   ```bash
+   nvm install 22
+   nvm use 22
+   ```
+4. Verify the installation:
+   ```bash
+   node --version
+   # Should output v22.x.x
+   npm --version
+   ```
+
+##### Windows
+1. Download and run the installer for [nvm-windows](https://github.com/coreybutler/nvm-windows/releases).
+2. Once installed, open a new terminal (Command Prompt or PowerShell) and run:
+   ```bash
+   nvm install 22
+   nvm use 22
+   ```
+3. Verify the installation:
+   ```bash
+   node --version
+   # Should output v22.x.x
+   npm --version
+   ```
+
+#### Alternative: Direct Installation
+If you prefer not to use a version manager such as `nvm`, you can install Node.js directly.
+
+##### Windows
 1. Download the Windows installer from the [Node.js official website](https://nodejs.org/).
 2. Run the installer and follow the prompts.
 3. Open a terminal (Command Prompt or PowerShell) and verify the installation:
@@ -21,7 +61,7 @@ Node.js is required for running JavaScript-based tools and applications. If you 
    npm --version
    ```
 
-#### macOS
+##### macOS
 1. Install Node.js using Homebrew:
    ```bash
    brew install node
@@ -32,7 +72,7 @@ Node.js is required for running JavaScript-based tools and applications. If you 
    npm --version
    ```
 
-#### Linux
+##### Linux
 1. Install Node.js via your package manager (e.g., apt for Ubuntu):
    ```bash
    sudo apt update
