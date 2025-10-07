@@ -11,7 +11,7 @@ const expectedApiKeyHashes = {
       "11f343372b1206d1e84cda4a6cfb1655d74d9ff17fa6945316d323121bbb8bdb"
     ],
     gemini: [
-      "a4218db52d2aa5181d83b70fc9a142808300a3d51f7512c26a49696688e6b5fb"
+      "9d4cdb614a8341d311cc20d7bc0eec8dfae0f32a0b600ef5e84af03c35eadcda"
     ],
     anthropic: [
       "ca67406ca752cdc62380ea9776b5c32ca780bc21f67e55381e4c63bdb70bb76c"
