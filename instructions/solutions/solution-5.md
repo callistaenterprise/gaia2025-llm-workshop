@@ -11,14 +11,17 @@
 Open the file [`backend/src/services/parseRecipes.ts`](../../backend/src/services/parseRecipes.ts) and replace function `callGemini` by using below code:
 
 ```
-export async function callGemini(prompt: string): Promise<string> {
-    let result;
+export async function callGemini(prompt: string): Promise<any> {
+    // 1. SETUP & INITIALIZATION
     const geminiClient = new GoogleGenAI({apiKey: process.env.GEMINI_API_KEY});
+    const contents: Content[] = [{role: 'user', parts: [{text: prompt}]}];
+    let result: string;
 
+    // 2. FUNCTION DECLARATION
+    // Define the structure of the function the LLM can call
     const conversionFunctionDeclaration: FunctionDeclaration = {
         name: 'convertUStoSwedishUnits',
         parameters: {
-
             type: Type.OBJECT,
             description: 'Convert US recipe units to Swedish units. Do NOT call this function for units that are already in Swedish format (g, kg, l, dl, msk, tsk, krm, efter smak).',
             properties: {
@@ -33,46 +36,73 @@ export async function callGemini(prompt: string): Promise<string> {
             },
             required: ['unit', 'amount']
         }
-    }
+    };
 
-    const contents: Content[] = [{role: 'user', parts: [{text: prompt}]}];
-
+    // 3. FIRST API CALL
+    // The model receives the prompt and may decide to call functions
     const firstResponse: GenerateContentResponse = await geminiClient.models.generateContent({
-        model: 'gemini-2.0-flash',
+        model: 'gemini-2.0-flash', // Consider 'gemini-1.5-pro-latest' for higher reliability
         contents: contents,
         config: {
             tools: [{
                 functionDeclarations: [conversionFunctionDeclaration]
             }],
-            toolConfig: {functionCallingConfig: {mode: FunctionCallingConfigMode.ANY, allowedFunctionNames: [conversionFunctionDeclaration.name!]}} ,
+            toolConfig: {
+                functionCallingConfig: {
+                    mode: FunctionCallingConfigMode.ANY,
+                    allowedFunctionNames: [conversionFunctionDeclaration.name!]
+                }
+            },
             temperature: 0.0,
             seed: 42,
         },
     });
 
+    // 4. HANDLE FUNCTION CALLS (if any)
     result = firstResponse.text!;
-
     const functionCalls: FunctionCall[] = firstResponse.functionCalls!;
 
-    if(functionCalls) {
+    if (functionCalls && functionCalls.length > 0) {
         console.log(`🔧 FunctionCalls: ${functionCalls.length}`);
 
+        // This array will hold the results of our local function executions
+        const functionResponseParts: Part[] = [];
+
+        // Execute each function call from the model's response
         for (const functionCall of functionCalls) {
-            if (functionCall) {
-                // Call the executable function
-                const {unit, amount} = functionCall.args as unknown as UnitAndAmount;
-                const apiResponse = convertToSwedishUnits(unit, amount);
-                const functionResponse: FunctionResponse =  {
-                    id: functionCall.id,
+            const {unit, amount} = functionCall.args as unknown as UnitAndAmount;
+            
+            // Call your local function
+            const apiResponse = convertToSwedishUnits(unit, amount);
+            console.log(`  ✅  ${amount}${unit} converted to ${apiResponse.amount}${apiResponse.unit}`);
+
+            // Add the structured response to our collection as a 'Part'
+            functionResponseParts.push({
+                functionResponse: {
                     name: functionCall.name,
-                    response: {output: apiResponse}
-                }
-                contents.push({ role: 'model', parts: [{ functionCall: functionCall }] });
-                contents.push({ role: 'user', parts: [{ functionResponse: functionResponse }] });
-                console.log(`  ✅  ${amount}${unit} converted to ${apiResponse.amount}${apiResponse.unit}`);
-            }
+                    response: {
+                        name: functionCall.name,
+                        content: apiResponse
+                    },
+                },
+            });
         }
 
+        // CONSTRUCT THE CONVERSATION HISTORY CORRECTLY
+        // A: Add the model's turn containing ALL parallel function call requests
+        contents.push({
+            role: 'model',
+            parts: functionCalls.map(fc => ({ functionCall: fc })),
+        });
+
+        // B: Add a SINGLE tool turn containing ALL the function responses
+        contents.push({
+            role: 'tool', // 'tool' is the correct role for function responses
+            parts: functionResponseParts,
+        });
+
+        // 5. SECOND API CALL
+        // The model receives the function results and generates the final text response
         const final_response = await geminiClient.models.generateContent({
             model: 'gemini-2.0-flash',
             contents: contents,
@@ -84,17 +114,21 @@ export async function callGemini(prompt: string): Promise<string> {
                 seed: 42
             },
         });
+        
         result = final_response.text!;
         if (!final_response.text) {
-            throw new Error("LLM response did not contain any text. Only function calls were returned which is unexpected.");
+            throw new Error("LLM response did not contain any text after function calls. The model may have been confused by the conversation history.");
         }
     }
 
+    // 6. CLEANUP AND RETURN
+    // Remove markdown code fences and parse the JSON string
     result = result
-        .replace(/^```json\s*/i, '') // Remove starting ```json (case-insensitive)
-        .replace(/^```\s*/i, '')    // If it's just ``` without json
-        .replace(/```$/, '')        // Remove ending ```
-        .trim();                   // Remove extra spaces and line breaks
+        .replace(/^```json\s*/i, '')
+        .replace(/^```\s*/i, '')
+        .replace(/```$/, '')
+        .trim();
+        
     return JSON.parse(result);
 }
 ```

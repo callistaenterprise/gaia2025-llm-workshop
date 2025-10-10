@@ -2,8 +2,8 @@ import {convertToSwedishUnits, UnitAndAmount} from "./conversions"; // used in E
 import {
     Content,
     FunctionCall, FunctionCallingConfigMode,
-    FunctionDeclaration, FunctionResponse,
-    Type
+    FunctionDeclaration,
+    Type, Part
 } from "@google/genai"; // used in Exercise 5
 import {GenerateContentResponse, GoogleGenAI} from "@google/genai"; // used in Exercise 3
 
