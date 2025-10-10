@@ -2,17 +2,17 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "dist/index.js",
-"scripts": {
-  "test": "cross-env NODE_ENV=test jest",
-  "build": "npx tsc",
-  "start": "cross-env NODE_ENV=production node dist/index.js",
-  "dev": "cross-env NODE_ENV=development nodemon src/index.ts",
-  "test-exercise-1": "cross-env NODE_ENV=development ts-node test-exercises/exercise_1.ts",
-  "test-exercise-2": "cross-env NODE_ENV=development ts-node test-exercises/exercise_2.ts",
-  "test-exercise-3": "cross-env NODE_ENV=development ts-node test-exercises/exercise_3.ts",
-  "test-exercise-4": "cross-env NODE_ENV=development ts-node test-exercises/exercise_4.ts",
-  "test-exercise-5": "cross-env NODE_ENV=development ts-node test-exercises/exercise_5.ts"
-},
+  "scripts": {
+    "test": "cross-env NODE_ENV=test jest",
+    "build": "npx tsc",
+    "start": "cross-env NODE_ENV=production node dist/index.js",
+    "dev": "cross-env NODE_ENV=development nodemon src/index.ts",
+    "test-exercise-1": "cross-env NODE_ENV=development ts-node test-exercises/exercise_1.ts",
+    "test-exercise-2": "cross-env NODE_ENV=development ts-node test-exercises/exercise_2.ts",
+    "test-exercise-3": "cross-env NODE_ENV=development ts-node test-exercises/exercise_3.ts",
+    "test-exercise-4": "cross-env NODE_ENV=development ts-node test-exercises/exercise_4.ts",
+    "test-exercise-5": "cross-env NODE_ENV=development ts-node test-exercises/exercise_5.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -37,7 +37,7 @@
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4",
-    "vitest": "^2.1.1"
+    "vitest": "^3.2.4"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.32.1",
@@ -57,6 +57,7 @@
     "openai": "^4.91.1",
     "pdf-parse": "^1.1.1",
     "slug": "^10.0.0",
-    "string-strip-html": "8.5.0"
+    "string-strip-html": "8.5.0",
+    "vite": "^7.1.9"
   }
 }
